@@ -117,20 +117,6 @@
 
 ---
 
-## Cronograma Macro de Entregas
-
-| **Etapa**                         | **Descrição**                           | **Prazo**        |
-|-----------------------------------|-----------------------------------------|------------------|
-| Configuração de Infraestrutura    | VPC, sub-redes, segurança               | Semana 1        |
-| Banco de Dados                    | Configuração e testes do Aurora         | Semana 2        |
-| Armazenamento e CDN               | S3 e CloudFront                         | Semana 2        |
-| Kubernetes e Aplicação            | Configuração do EKS, Auto Scaling       | Semana 3        |
-| Balanceamento de Carga e Segurança | ALB, WAF, Shield                       | Semana 4        |
-| Testes e Revisão                  | Testes de carga e segurança             | Semana 5        |
-| Migração e Documentação           | Migração e treinamento                  | Semana 6        |
-
----
-
 ## Conclusão
 
 Esta configuração detalhada usa a região South America (São Paulo) para otimizar custos e manter baixa latência. Os serviços AWS, como Amazon EKS, Aurora, S3, CloudFront e ALB, proporcionam uma infraestrutura flexível e segura para suportar o aumento de tráfego mensal de 20% esperado para o e-commerce.
